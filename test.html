@@ -1,15 +1,13 @@
-﻿<!DOCTYPE HTML>
 <html>
-<head>
-<title>JavaScript Hello World</title>
-</head>
 <body>
-<h1>JavaScript Hello World Example</h1>
-<button onclick="myFunction()">Try it</button>
-<script>
-function myFunction() {
-    alert("Hello\nHow are you?");
-}
-</script>
+
+<form action="waitlistinsert.php" method="post">
+First Name: <input type="text" name="firstname"><br>
+Last Name: <input type="text" name="lastname"><br>
+Phone: <input type="number" name="phone" max-length="10"><br>
+Party Size: <input type="number" name="party" min="1" max="5"><br>
+<input type="submit">
+</form>
+
 </body>
 </html>
